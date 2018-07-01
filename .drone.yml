@@ -1,6 +1,6 @@
 pipeline:
   test:
-    image: paparia/ci:17.07.0_1.16.1
+    image: akalipetis/ci:17.07.0_1.16.1
     environment:
       - DOCKER_HOST=tcp://docker:2375
     commands:
